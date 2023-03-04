@@ -12,13 +12,14 @@ class App extends Component {
   render() {
     return (      
        <BrowserRouter>
-        <div>
+        <div className='justify'>
           <Navbar />
             <Routes>
             <Route path='/' element={<Home/>} />
             <Route path='/about' element={<About/>} />
             <Route path='/contact' element={<Contact/>} />
            </Routes>
+           
         </div> 
       </BrowserRouter>
     );

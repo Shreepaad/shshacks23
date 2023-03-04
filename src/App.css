@@ -4,6 +4,10 @@
     box-sizing: border-box;
   }
 
+.justify {
+    display: flex;
+}
+
 .Sidebar {
     background-color: #232323;
     height:100vh;
@@ -24,16 +28,27 @@
     list-style-type: none;
 }
 
+
+.break {
+    height: 10px;
+}
+
 .nav-item {
-    margin-left: 35px;
+    margin-left: auto;
+    margin-right: auto;
     height: 61px;
     width: 252px;
     background-color: #343434;
-    padding: 5px;
     border-radius: 20px;
 }
 .nav-item a{
     text-decoration: none;
     color: white;
+    width: 100%;
+    text-align: center;
+    display: block;
+    padding: 10px;
+    padding-top: 18px;
+    font-size: 20px;
 }
 
