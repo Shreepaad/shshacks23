@@ -10,7 +10,7 @@
     width: 305px;
 }
 
-.title {
+.logo {
     padding-left: 35px;
     padding-top: 35%; 
     color: white;
@@ -26,11 +26,10 @@
     height: 61px;
     width: 252px;
     background-color: #343434;
-    padding-bottom: 500px;
+    padding: 5px;
 }
 .nav-item a{
     text-decoration: none;
     color: white;
-    
 }
 
