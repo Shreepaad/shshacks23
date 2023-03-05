@@ -20,6 +20,92 @@
     background-color: #00000055;
 }
 
+.sportsSelector {
+    margin-top: 100px;
+    display: grid;
+    padding: 15px;
+    gap: 40px;
+    grid-template-columns: repeat(4, 1fr);
+}
+
+.sportBox {
+    color: white;
+    width: 80%;
+    aspect-ratio: 1/1;
+    background: url(/src/pages/imageFootball.png);
+    background-color: #22222279;
+    border-radius: 15px;
+    background-repeat: no-repeat;
+}
+
+.sportBox2 {
+    color: white;
+    width: 80%;
+    aspect-ratio: 1/1;
+    background: url(/src/pages/imageBaseball_50.png);
+    background-color: #22222279;
+    border-radius: 15px;
+    background-repeat: no-repeat;
+
+
+}
+
+
+.sportBox3 {
+    color: white;
+    width: 80%;
+    aspect-ratio: 1/1;
+    background: url(/src/pages/imageBasketball_50.png);
+    background-color: #22222279;
+    border-radius: 15px;
+}
+
+.sportBox4 {
+    color: white;
+    width: 80%;
+    aspect-ratio: 1/1;
+    background: url(/src/pages/imageCheerleader.png);
+    background-color: #22222279;
+    border-radius: 15px;
+}
+
+.sportBox5 {
+    color: white;
+    width: 80%;
+    aspect-ratio: 1/1;
+    background: url(/src/pages/imageRunner_50.png);
+    background-color: #22222279;
+    border-radius: 15px;
+}
+
+.sportBox6 {
+    color: white;
+    width: 80%;
+    aspect-ratio: 1/1;
+    background: url(/src/pages/imageSoccerball_50.png);
+    background-color: #22222279;
+    border-radius: 15px;
+}
+
+.sportBox7 {
+    color: white;
+    width: 80%;
+    aspect-ratio: 1/1;
+    background: url(/src/pages/imageTennisball_50.png);
+    background-color: #22222279;
+    border-radius: 15px;
+}
+
+.sportBox8 {
+    color: white;
+    width: 80%;
+    aspect-ratio: 1/1;
+    background: url(/src/pages/imageVolleyball_75.png);
+    background-color: #22222279;
+    border-radius: 15px;
+    background-repeat: no-repeat;
+}
+
 .cross_country {
     background-image: url(/src/pages/imageCross.png);
     background-size: cover;
