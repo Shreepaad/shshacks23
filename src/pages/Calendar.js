@@ -1,6 +1,7 @@
 import React from "react";
-import { initializeApp  } from 'https://www.gstatic.com/firebasejs/9.0.0/firebase-app.js';
+import { initializeApp } from 'https://www.gstatic.com/firebasejs/9.0.0/firebase-app.js';
 import { getAuth, onAuthStateChanged, GoogleAuthProvider, signInWithPopup, signOut  } from 'https://www.gstatic.com/firebasejs/9.0.0/firebase-auth.js';
+import { getDatabase, ref, set } from 'https://www.gstatic.com/firebasejs/9.0.0/firebase-database.js';
 // TODO: Add SDKs for Firebase products that you want to use
 // https://firebase.google.com/docs/web/setup#available-libraries
 
@@ -18,11 +19,13 @@ const firebaseConfig = {
 initializeApp(firebaseConfig);
 const firebaseapp = initializeApp(firebaseConfig);
 const auth = getAuth(firebaseapp);
-const goog = new GoogleAuthProvider(auth);
+const googleauth = new GoogleAuthProvider(auth);
+const db = getDatabase(firebaseapp);
+
 
 
 const signInWithGoogle = () => {
-    signInWithPopup(auth, goog)
+    signInWithPopup(auth, googleauth)
     .then(() => {
         window.location.assign('./profile');
     })
@@ -30,6 +33,16 @@ const signInWithGoogle = () => {
         console.error(error);
     })
 }
+function writeUserData() {
+    const userId = auth.currentUser.uid;
+    set(ref(db, 'users/' + userId), {
+      username: "name",
+      email: "email",
+      profile_picture : "imageUrl",
+      workout : ["d", "D"]
+    });
+}
+
 
 
 
@@ -39,8 +52,10 @@ const Calendar = () => {
             <h1>Calendar</h1>
             <p>Content</p>
             <button onClick = {signInWithGoogle}> signinwithgooogle </button>
+            <button onClick = {writeUserData}> addtoworkout </button>
         </div>
     );
 };
 
 export default Calendar;
+//last update time
