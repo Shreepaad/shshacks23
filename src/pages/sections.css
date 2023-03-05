@@ -44,6 +44,7 @@
     background: url(/src/pages/imageFootball.png);
     background-color: #22222279;
     border-radius: 15px;
+    background-size: cover;
     background-repeat: no-repeat;
 }
 
@@ -55,6 +56,7 @@
     background-color: #22222279;
     border-radius: 15px;
     background-repeat: no-repeat;
+    background-size: cover;
 
 
 }
@@ -67,6 +69,8 @@
     background: url(/src/pages/imageBasketball_50.png);
     background-color: #22222279;
     border-radius: 15px;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 .sportBox4 {
@@ -76,6 +80,8 @@
     background: url(/src/pages/imageCheerleader.png);
     background-color: #22222279;
     border-radius: 15px;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 .sportBox5 {
@@ -85,6 +91,8 @@
     background: url(/src/pages/imageRunner_50.png);
     background-color: #22222279;
     border-radius: 15px;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 .sportBox6 {
@@ -94,6 +102,8 @@
     background: url(/src/pages/imageSoccerball_50.png);
     background-color: #22222279;
     border-radius: 15px;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 .sportBox7 {
@@ -103,6 +113,8 @@
     background: url(/src/pages/imageTennisball_50.png);
     background-color: #22222279;
     border-radius: 15px;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 .sportBox8 {
@@ -113,6 +125,7 @@
     background-color: #22222279;
     border-radius: 15px;
     background-repeat: no-repeat;
+    background-size: cover;
 }
 
 .cross_country {
