@@ -6,14 +6,14 @@ const Athletics = () => {
             <h1>Athletics</h1>
             <p>Content</p>
             <div className="sportsSelector">
-                <div className="sportBox">American Football</div>
-                <div className="sportBox">Baseball</div>
-                <div className="sportBox">Basketball</div>
-                <div className="sportBox">Cheerleading</div>
-                <div className="sportBox">Cross Country</div>
-                <div className="sportBox">Soccer</div>
-                <div className="sportBox">Tennis</div>
-                <div className="sportBox">Football</div>
+                <div className="sportBox"></div>
+                <div className="sportBox2"></div>
+                <div className="sportBox3"></div>
+                <div className="sportBox4"></div>
+                <div className="sportBox5"></div>
+                <div className="sportBox6"></div>
+                <div className="sportBox7"></div>
+                <div className="sportBox8"></div>
             </div>
         </div>
     );
