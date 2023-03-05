@@ -33,14 +33,9 @@ const Navbar = () => {
                         <p>Athletics</p>
                     </NavLink>
                 </li>
-
                 <li className="login">
-                    
-                    <SportsBasketballOutlined />
                     <p>Name</p>
-                    
                 </li>
-                
             </ul>
         </div>
     );
