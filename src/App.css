@@ -83,3 +83,18 @@
     background-color: #343434;
     border-radius: 20px;
 }
+
+.login a {
+    text-decoration: none;
+    color: white;
+    width: 100%;
+    text-align: center;
+    display: block;
+    padding: 10px;
+    padding-top: 18px;
+    font-size: 20px;
+    font-family: Inter;
+    font-weight: 600;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
