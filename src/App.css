@@ -59,4 +59,10 @@
     font-size: 20px;
     font-family: Inter;
     font-weight: 600;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+.nav-item a svg {
+    width: 100%;
 }
