@@ -1,5 +1,9 @@
 import React from "react";
-
+import {
+    CalendarMonthOutlined,
+    LocalFireDepartmentOutlined,
+    SportsBasketballOutlined,
+} from "@mui/icons-material";
 import { NavLink } from "react-router-dom";
 
 const Navbar = () => {
@@ -9,18 +13,23 @@ const Navbar = () => {
             <ul className="nav-list">
                 <li className="nav-item">
                     <NavLink to="/">
+                        <CalendarMonthOutlined
+                            style={{ justifySelf: "flex-start" }}
+                        />
                         <p>Calendar</p>
                     </NavLink>
                 </li>
                 <div className="break"></div>
                 <li className="nav-item">
                     <NavLink to="/about">
+                        <LocalFireDepartmentOutlined />
                         <p>Training</p>
                     </NavLink>
                 </li>
                 <div className="break"></div>
                 <li className="nav-item">
                     <NavLink to="/contact">
+                        <SportsBasketballOutlined />
                         <p>Athletics</p>
                     </NavLink>
                 </li>

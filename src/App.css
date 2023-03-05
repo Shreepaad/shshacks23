@@ -57,4 +57,10 @@
     padding: 10px;
     padding-top: 18px;
     font-size: 20px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+.nav-item a svg {
+    width: 100%;
 }
