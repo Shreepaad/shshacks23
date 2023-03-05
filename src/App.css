@@ -41,11 +41,12 @@
     background-color: #343434;
     border-radius: 20px;
     transition: 0.17s;
+    margin: 10px 0;
 }
 
 .nav-item:hover {
     background-color: #454545;
-    width: 255px;
+    outline: 2px solid #fefefe;
 }
 
 .nav-item a {
