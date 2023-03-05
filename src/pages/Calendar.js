@@ -22,7 +22,6 @@ const goog = new GoogleAuthProvider(auth);
 
 
 const signInWithGoogle = () => {
-    console.log("dsaljfsd");
     signInWithPopup(auth, goog)
     .then(() => {
         window.location.assign('./profile');
