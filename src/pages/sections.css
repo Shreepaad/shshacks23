@@ -568,3 +568,298 @@
 .cc2box4{
     grid-area: b4;
 }
+
+
+
+.football {
+    background-image: url(/src/pages/imageFoot.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: auto;
+    width: calc(100% - 305px);
+    position: relative;
+    background-color: grey;
+    background-blend-mode: multiply;
+}
+
+.football::after {
+    position: absolute;
+    top: 0;
+    left: 0;
+    content: "";
+    width: 100%;
+    height: 100%;
+}
+
+.football h1 {
+    color: white;
+    font-family: Lato;
+    font-size: 60px;
+    margin-left: 40px;
+    margin-top: 20%;
+
+}
+.football p {
+    color: white;
+    padding-left: 30px;
+    font-family: Inter;
+    font-size: 32px;
+    margin-bottom: 15%;
+}
+
+.fcard1 {
+    margin-top: 60px;
+    background-color: #232323;
+    margin-left:20px;
+    padding: 20px;
+    width: calc(100% - 40px);
+    height: fit-content;
+    border-radius: 20px;
+    display: grid;
+    grid-template: 1fr 5fr / 2fr 1fr;
+    grid-template-areas: 
+    "title box2"
+    "box1 box2";
+    grid-gap: 40px;
+    margin-bottom: 100px;
+}
+.fcard1 h2 {
+    color: white;
+    width: 100%;
+    height: 100%;
+    font-size: 50px;
+    align-self: center;
+    grid-area: title;
+}
+
+.fc1box1 {
+    background-color: #343434;
+    width: 100%;
+    height: 100%;
+    border-radius: 20px;
+    grid-area: box1;
+    padding: 40px;
+}
+.fc1box2 {
+    background-color: #343434;
+     width: 100%;
+     height: 100%;
+     border-radius: 20px;
+     grid-area: box2;
+     padding: 20px;
+     display: flex;
+     flex-direction: column;
+     align-items: left;
+     justify-content: center;
+}
+.fcoach{
+    width: 70%;
+    height: 90%;
+    margin: 10px 10px;
+    border-radius: 20px;
+    margin-bottom: 35px;
+}
+.fc1box2 h2{
+    color: white;
+    font-size: 40px;
+    margin-top: 0px;
+    text-align: right;
+}
+
+.fcard2{
+    margin-top: 60px;
+    background-color: #232323;
+    margin-left:20px;
+    padding: 20px;
+    width: calc(100% - 40px);
+    height: fit-content;
+    border-radius: 20px;
+    display: grid;
+    grid-template: 1fr / 2fr 1fr 1fr 1fr 1fr;
+    grid-template-areas: 
+    "title b1 b2 b3 b4";
+    grid-gap: 40px;
+    margin-bottom: 40px;
+}
+.fcard2 h2{
+    color: white;
+    width: 100%;
+    height: 100%;
+    font-size: 50px;
+    align-self: center;
+    grid-area: title;
+}
+.fc2box{
+    background-color: #343434;
+    width: 100%;
+    height: 100%;
+    border-radius: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+}
+.fc2box h2{
+    color: white;
+    font-size: 32px;
+    font-weight: 300;
+}
+.fc2box1{
+    grid-area: b1;
+}
+.fc2box2{
+    grid-area: b2;
+}
+.fc2box3{
+    grid-area: b3;
+}
+.fc2box4{
+    grid-area: b4;
+}
+
+
+.tennis {
+    background-image: url(/src/pages/imageTennis.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: auto;
+    width: calc(100% - 305px);
+    position: relative;
+    background-color: grey;
+    background-blend-mode: multiply;
+}
+
+.tennis::after {
+    position: absolute;
+    top: 0;
+    left: 0;
+    content: "";
+    width: 100%;
+    height: 100%;
+}
+
+.tennis h1 {
+    color: white;
+    font-family: Lato;
+    font-size: 60px;
+    margin-left: 40px;
+    margin-top: 20%;
+
+}
+.tennis p {
+    color: white;
+    padding-left: 30px;
+    font-family: Inter;
+    font-size: 32px;
+    margin-bottom: 15%;
+}
+
+.tcard1 {
+    margin-top: 60px;
+    background-color: #232323;
+    margin-left:20px;
+    padding: 20px;
+    width: calc(100% - 40px);
+    height: fit-content;
+    border-radius: 20px;
+    display: grid;
+    grid-template: 1fr 5fr / 2fr 1fr;
+    grid-template-areas: 
+    "title box2"
+    "box1 box2";
+    grid-gap: 40px;
+    margin-bottom: 100px;
+}
+.tcard1 h2 {
+    color: white;
+    width: 100%;
+    height: 100%;
+    font-size: 50px;
+    align-self: center;
+    grid-area: title;
+}
+
+.tc1box1 {
+    background-color: #343434;
+    width: 100%;
+    height: 100%;
+    border-radius: 20px;
+    grid-area: box1;
+    padding: 40px;
+}
+.tc1box2 {
+    background-color: #343434;
+     width: 100%;
+     height: 100%;
+     border-radius: 20px;
+     grid-area: box2;
+     padding: 20px;
+     display: flex;
+     flex-direction: column;
+     align-items: left;
+     justify-content: center;
+}
+.tcoach{
+    width: 70%;
+    height: 90%;
+    margin: 10px 10px;
+    border-radius: 20px;
+    margin-bottom: 35px;
+}
+.tc1box2 h2{
+    color: white;
+    font-size: 40px;
+    margin-top: 0px;
+    text-align: right;
+}
+
+.tcard2{
+    margin-top: 60px;
+    background-color: #232323;
+    margin-left:20px;
+    padding: 20px;
+    width: calc(100% - 40px);
+    height: fit-content;
+    border-radius: 20px;
+    display: grid;
+    grid-template: 1fr / 2fr 1fr 1fr 1fr 1fr;
+    grid-template-areas: 
+    "title b1 b2 b3 b4";
+    grid-gap: 40px;
+    margin-bottom: 40px;
+}
+.tcard2 h2{
+    color: white;
+    width: 100%;
+    height: 100%;
+    font-size: 50px;
+    align-self: center;
+    grid-area: title;
+}
+.tc2box{
+    background-color: #343434;
+    width: 100%;
+    height: 100%;
+    border-radius: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+}
+.tc2box h2{
+    color: white;
+    font-size: 32px;
+    font-weight: 300;
+}
+.tc2box1{
+    grid-area: b1;
+}
+.tc2box2{
+    grid-area: b2;
+}
+.tc2box3{
+    grid-area: b3;
+}
+.tc2box4{
+    grid-area: b4;
+}

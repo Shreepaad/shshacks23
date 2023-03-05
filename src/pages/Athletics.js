@@ -7,7 +7,7 @@ const Athletics = () => {
             <h1>Athletics</h1>
 
             <div className="sportsSelector">
-                <NavLink to="/">
+                <NavLink to="/football">
                     <div className="sportBox"></div>
                 </NavLink>
                 <NavLink to="/">
@@ -16,7 +16,7 @@ const Athletics = () => {
                 <NavLink to="/">
                     <div className="sportBox3"></div>
                 </NavLink>
-                <NavLink to="/">
+                <NavLink to="/cheer">
                     <div className="sportBox4"></div>
                 </NavLink>
                 <NavLink to="/cross">
@@ -25,7 +25,7 @@ const Athletics = () => {
                 <NavLink to="/soccer">
                     <div className="sportBox6"></div>
                 </NavLink>
-                <NavLink to="/">
+                <NavLink to="/tennis">
                     <div className="sportBox7"></div>
                 </NavLink>
                 <NavLink to="/">

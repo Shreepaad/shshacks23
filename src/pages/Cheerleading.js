@@ -5,7 +5,7 @@ const Cheer = () => {
     return (
        <div className='cheer'>
         <h1>Cheerleading</h1>
-        <p><br/>A form of long-distance running that<br/> takes place on natural terrain, such as <br/>trails, hills, and grassy fields.</p>
+        <p><br/>Description</p>
         
         <div className='ccard1'>
             <h2>Tryouts</h2>
