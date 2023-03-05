@@ -9,6 +9,10 @@ const Athletics = () => {
                 <NavLink to="/cross">
                     <p>Cross Country</p>
                 </NavLink>
+
+                <NavLink to="/soccer">
+                    <p>Soccer</p>
+                </NavLink>
             
             <div className="sportsSelector">
                 <div className="sportBox"></div>
