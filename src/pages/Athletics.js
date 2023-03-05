@@ -5,29 +5,32 @@ const Athletics = () => {
     return (
         <div className="idk">
             <h1>Athletics</h1>
-                <p>Content</p>
-                <NavLink to="/cross">
-                    <p>Cross Country</p>
-                </NavLink>
 
-                <NavLink to="/soccer">
-                    <p>Soccer</p>
-                </NavLink>
-
-                <NavLink to="/cheer">
-                    <p>Cheerleading</p>
-                </NavLink>
-            
-            
             <div className="sportsSelector">
-                <div className="sportBox"></div>
-                <div className="sportBox2"></div>
-                <div className="sportBox3"></div>
-                <div className="sportBox4"></div>
-                <div className="sportBox5"></div>
-                <div className="sportBox6"></div>
-                <div className="sportBox7"></div>
-                <div className="sportBox8"></div>
+                <NavLink to="/">
+                    <div className="sportBox"></div>
+                </NavLink>
+                <NavLink to="/">
+                    <div className="sportBox2"></div>
+                </NavLink>
+                <NavLink to="/">
+                    <div className="sportBox3"></div>
+                </NavLink>
+                <NavLink to="/">
+                    <div className="sportBox4"></div>
+                </NavLink>
+                <NavLink to="/cross">
+                    <div className="sportBox5"></div>
+                </NavLink>
+                <NavLink to="/soccer">
+                    <div className="sportBox6"></div>
+                </NavLink>
+                <NavLink to="/">
+                    <div className="sportBox7"></div>
+                </NavLink>
+                <NavLink to="/">
+                    <div className="sportBox8"></div>
+                </NavLink>
             </div>
         </div>
     );
