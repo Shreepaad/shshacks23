@@ -6,7 +6,7 @@ const Athletics = () => {
         <div className="idk">
             <h1>Athletics</h1>
                 <p>Content</p>
-                <NavLink to="/Cross">
+                <NavLink to="/cross">
                     <p>Cross Country</p>
                 </NavLink>
             
