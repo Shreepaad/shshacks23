@@ -19,14 +19,12 @@ const Navbar = () => {
                         <p>Calendar</p>
                     </NavLink>
                 </li>
-                <div className="break"></div>
                 <li className="nav-item">
                     <NavLink to="/about">
                         <LocalFireDepartmentOutlined />
                         <p>Training</p>
                     </NavLink>
                 </li>
-                <div className="break"></div>
                 <li className="nav-item">
                     <NavLink to="/contact">
                         <SportsBasketballOutlined />

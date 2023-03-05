@@ -17,11 +17,11 @@
     width: 305px;
     display: flex;
     flex-direction: column;
-    gap: 5px;
+    gap: 15px;
+    align-items: center;
 }
 
 .logo {
-    padding-left: 35px;
     padding-top: 35%;
     color: white;
     padding-bottom: 30px;
@@ -33,11 +33,6 @@
     list-style-type: none;
 }
 
-
-.break {
-    height: 10px;
-}
-
 .nav-item {
     margin-left: auto;
     margin-right: auto;
@@ -45,12 +40,12 @@
     width: 252px;
     background-color: #343434;
     border-radius: 20px;
-    transition: 200ms;
+    transition: 0.17s;
 }
 
 .nav-item:hover {
     background-color: #454545;
-    outline: 2px solid #fefefe;
+    width: 255px;
 }
 
 .nav-item a {
