@@ -1,5 +1,6 @@
 import React from 'react';
 import './sections.css';
+import { NavLink } from "react-router-dom";
 
 const Cross = () => {
     return (
@@ -19,9 +20,12 @@ const Cross = () => {
         </div>
         <div className='card2'>
             <h2>Programs</h2>
-            <div className='c2box1 c2box'>
-                <h2>Push</h2>
-            </div>
+            
+                <div className='c2box1 c2box'>
+                    <h2>Push</h2>
+
+                </div>
+
             <div className='c2box2 c2box'>
                 <h2>Agility</h2>
             </div>

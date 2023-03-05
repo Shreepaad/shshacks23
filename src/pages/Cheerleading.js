@@ -1,5 +1,6 @@
 import React from 'react';
 import './sections.css';
+import { NavLink } from "react-router-dom";
 
 const Cheer = () => {
     return (
