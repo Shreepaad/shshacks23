@@ -141,41 +141,51 @@
     font-size: 20px;
 }
 
-.card {
+.card1 {
     margin-top: 60px;
     background-color: #232323;
     margin-left:20px;
+    padding: 20px;
     width: calc(100% - 40px);
     height: 350px;
     border-radius: 20px;
-    display: flex;
-
+    display: grid;
+    grid-template: 1fr 4fr / 2fr 1fr;
+    grid-template-areas: "title box2",
+    "box1 box2";
+    grid-gap: 20px;
 }
-.card h2 {
+.card1 h2 {
     color: white;
-    padding-left: 30px;
-    padding-top: 40px;
-    width: 200px;
-    height: 70px;
-
+    width: 100%;
+    height: 100%;
 }
 
-.box3 {
+.c1box1 {
     background-color: #343434;
-    float:left;
-    margin-top: 15px;
-    margin-left:20px;
-     width: 520px;
-     height: 240px;
+     width: 100%;
+     height: 100%;
      border-radius: 20px;
+     grid-area: box1;
+     padding: 20px;
 }
-
-.box2 {
+.c1box2 {
     background-color: #343434;
-    float: right;
-    margin-left: calc(100% - 865px);
-    width: 300px;
-    height: 300px;
-    border-radius: 20px;
-    margin-top: 25px;
+     width: 100%;
+     height: 100%;
+     border-radius: 20px;
+     grid-area: box2;
+     padding: 20px;
+     display: flex;
+     flex-direction: column;
+     align-items: center;
+     justify-content: center;
+}
+.coach{
+    width: 100%;
+    height: 80%;
+}
+.c1box2 h2{
+    color: white;
+    font-size: 32px;
 }
