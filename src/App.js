@@ -10,6 +10,7 @@ import Athletics from './pages/Athletics';
 import Home from './pages/Home';
 import Cross from './pages/Cross';
 import Workouts from './pages/workouts';
+import Soccer from './pages/Soccer';
  
 class App extends Component {
   render() {
@@ -24,6 +25,7 @@ class App extends Component {
             <Route path='/athletics' element={<Athletics/>} />
             <Route path='/cross' element={<Cross/>} />
             <Route path='/workouts' element={<Workouts/>} />
+            <Route path='/soccer' element={<Soccer/>} />
            </Routes>
            
         </div> 

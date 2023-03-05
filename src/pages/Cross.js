@@ -10,7 +10,7 @@ const Cross = () => {
         <div className='card1'>
             <h2>Tryouts</h2>
             <div className='c1box1'>
-                <p>hey bois<br/>hows it going</p>
+                <p>Monday - TBD<br/>Tuesday - TBD</p>
             </div>
             <div className='c1box2'>
                 <img src="https://resources.finalsite.net/images/f_auto,q_auto/v1559589797/d125org/o48oo2dglaabdyqqyvrk/Scott_Sommers.png" className="coach"></img>
@@ -20,16 +20,16 @@ const Cross = () => {
         <div className='card2'>
             <h2>Programs</h2>
             <div className='c2box1 c2box'>
-                <h2>hey bois</h2>
+                <h2>Push</h2>
             </div>
             <div className='c2box2 c2box'>
-                <h2>wassup</h2>
+                <h2>Agility</h2>
             </div>
             <div className='c2box3 c2box'>
-                <h2>sup</h2>
+                <h2>Lower Body</h2>
             </div>
             <div className='c2box4 c2box'>
-                <h2>omg</h2>
+                <h2>Speed</h2>
             </div>
         </div>
        </div>

@@ -22,7 +22,7 @@ const Athletics = () => {
                 <NavLink to="/cross">
                     <div className="sportBox5"></div>
                 </NavLink>
-                <NavLink to="/">
+                <NavLink to="/soccer">
                     <div className="sportBox6"></div>
                 </NavLink>
                 <NavLink to="/">
