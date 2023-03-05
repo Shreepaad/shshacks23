@@ -6,7 +6,7 @@ const Athletics = () => {
         <div className="section athletics">
             <h1>Athletics</h1>
             <p>Content</p>
-        NavLink to="/cross_country">
+        <NavLink to="/cross_country">
                         <p>Cross_Country</p>
             </NavLink>
             <div className="sportsSelector">
