@@ -1,10 +1,14 @@
 import React from "react";
+import { NavLink } from "react-router-dom";
 
 const Athletics = () => {
     return (
         <div className="section athletics">
             <h1>Athletics</h1>
             <p>Content</p>
+        NavLink to="/cross_country">
+                        <p>Cross_Country</p>
+            </NavLink>
             <div className="sportsSelector">
                 <div className="sportBox"></div>
                 <div className="sportBox2"></div>
