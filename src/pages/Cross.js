@@ -17,6 +17,21 @@ const Cross = () => {
                 <h2>Scott Sommers</h2>
             </div>
         </div>
+        <div className='card2'>
+            <h2>Programs</h2>
+            <div className='c2box1 c2box'>
+                <h2>hey bois</h2>
+            </div>
+            <div className='c2box2 c2box'>
+                <h2>wassup</h2>
+            </div>
+            <div className='c2box3 c2box'>
+                <h2>sup</h2>
+            </div>
+            <div className='c2box4 c2box'>
+                <h2>omg</h2>
+            </div>
+        </div>
        </div>
     );
 }

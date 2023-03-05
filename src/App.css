@@ -13,12 +13,14 @@
 
 .Sidebar {
     background-color: #232323;
-    height: 100vh;
+    height: 100%;
     width: 25vw;
     display: flex;
     flex-direction: column;
     gap: 35px;
     align-items: center;
+    padding-bottom: 40px;
+    overflow: hidden;
 }
 
 .logo {
