@@ -17,7 +17,7 @@
     width: 305px;
     display: flex;
     flex-direction: column;
-    gap: 15px;
+    gap: 25px;
     align-items: center;
 }
 
