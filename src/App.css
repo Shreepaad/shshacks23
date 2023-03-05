@@ -26,7 +26,8 @@
     padding-bottom: 30px;
     font-family: Barlow;
     font-weight: 900px;
-    font-size: 64px;
+    font-size: 42px;
+    transform: translate(-10px, 0px);
 }
 
 .logo a {
