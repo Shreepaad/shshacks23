@@ -20,6 +20,15 @@
     background-color: #00000055;
 }
 
+.idk {
+    background-image: url(/src/pages/image.jpeg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: auto;
+    width: calc(100% - 305px);
+    position: relative;
+}
+
 .sportsSelector {
     margin-top: 100px;
     display: grid;

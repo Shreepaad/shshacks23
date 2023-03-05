@@ -1,7 +1,7 @@
 import React from 'react';
 import './sections.css';
 
-const cross = () => {
+const Cross = () => {
     return (
        <div className='cross_country'>
         <h1>Cross Country</h1>
@@ -21,4 +21,4 @@ const cross = () => {
     );
 }
  
-export default cross;
+export default Cross;

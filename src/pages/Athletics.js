@@ -3,12 +3,13 @@ import { NavLink } from "react-router-dom";
 
 const Athletics = () => {
     return (
-        <div className="section athletics">
+        <div className="idk">
             <h1>Athletics</h1>
-            <p>Content</p>
-            <NavLink to="/cross_country.js">
-                <p>Cross Country</p>
-            </NavLink>
+                <p>Content</p>
+                <NavLink to="/Cross">
+                    <p>Cross Country</p>
+                </NavLink>
+            
             <div className="sportsSelector">
                 <div className="sportBox"></div>
                 <div className="sportBox2"></div>
