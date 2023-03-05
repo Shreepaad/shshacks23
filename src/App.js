@@ -8,7 +8,7 @@ import Calendar from './pages/Calendar';
 import Navbar from './pages/Navbar';
 import Athletics from './pages/Athletics';
 import Home from './pages/Home';
-import Cross from './pages/cross_country';
+import cross_country from './pages/cross_country';
  
 class App extends Component {
   render() {
@@ -21,7 +21,7 @@ class App extends Component {
             <Route path='/calendar' element={<Calendar/>} />
             <Route path='/training' element={<Training/>} />
             <Route path='/athletics' element={<Athletics/>} />
-            <Route path='/cross_country' element={<Cross/>} />
+            <Route path='/cross_country' element={<cross_country/>} />
            </Routes>
            
         </div> 

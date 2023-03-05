@@ -78,7 +78,7 @@ const Navbar = () => {
                     </NavLink>
                 </li>
                 <li className="login">
-                    <button onClick = {signInWithGoogle}> signinwithgooogle </button>
+                    <button onClick = {signInWithGoogle}> Sign In With Google </button>
                 </li>
             </ul>
         </div>
