@@ -72,3 +72,12 @@
 .nav-item a svg {
     width: 100%;
 }
+
+.login {
+    margin-left: auto;
+    margin-right: auto;
+    height: 61px;
+    width: 252px;
+    background-color: #343434;
+    border-radius: 20px;
+}
