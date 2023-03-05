@@ -91,6 +91,7 @@ const workouts = () => {
                             3. Single-Leg Deadlifts: 3 sets x 8 reps (each leg) <br/>
                             4. Kettlebell Swings: 3 sets x 10 reps <br/>
                             5. Seated Calf Raises: 3 sets x 10 reps <br/>
+                            6. Box Jumps: 3 sets x 10 reps <br/>
                 </p>
 
         </div>
