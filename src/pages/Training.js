@@ -1,12 +1,12 @@
-import React from 'react';
- 
+import React from "react";
+
 const Training = () => {
     return (
-       <div>
-          <h1>Training</h1>
-          <p>Content</p>
-       </div>
+        <div className="section training">
+            <h1>Training</h1>
+            <p>Content</p>
+        </div>
     );
-}
- 
+};
+
 export default Training;

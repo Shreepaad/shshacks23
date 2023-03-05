@@ -1,12 +1,8 @@
-import React from 'react';
-import './sections.css';
+import React from "react";
+import "./sections.css";
 
 const home = () => {
-    return (
-       <div className='section'>
+    return <div className="section home"></div>;
+};
 
-       </div>
-    );
-}
- 
 export default home;
