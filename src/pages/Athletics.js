@@ -13,6 +13,11 @@ const Athletics = () => {
                 <NavLink to="/soccer">
                     <p>Soccer</p>
                 </NavLink>
+
+                <NavLink to="/cheer">
+                    <p>Cheerleading</p>
+                </NavLink>
+            
             
             <div className="sportsSelector">
                 <div className="sportBox"></div>

@@ -11,7 +11,8 @@ import Home from './pages/Home';
 import Cross from './pages/Cross';
 import Workouts from './pages/workouts';
 import Soccer from './pages/Soccer';
- 
+import Cheer from './pages/Cheerleading';
+
 class App extends Component {
   render() {
     return (      
@@ -26,6 +27,8 @@ class App extends Component {
             <Route path='/cross' element={<Cross/>} />
             <Route path='/workouts' element={<Workouts/>} />
             <Route path='/soccer' element={<Soccer/>} />
+            <Route path='/cheer' element={<Cheer/>} />
+
            </Routes>
            
         </div> 

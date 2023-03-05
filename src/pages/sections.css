@@ -421,3 +421,150 @@
 .s2box4{
     grid-area: b4;
 }
+
+
+.cheer {
+    background-image: url(/src/pages/imageCheer.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: auto;
+    width: calc(100% - 305px);
+    position: relative;
+    background-color: grey;
+    background-blend-mode: multiply;
+}
+
+.cheer::after {
+    position: absolute;
+    top: 0;
+    left: 0;
+    content: "";
+    width: 100%;
+    height: 100%;
+}
+
+.cheer h1 {
+    color: white;
+    font-family: Lato;
+    font-size: 60px;
+    margin-left: 40px;
+    margin-top: 20%;
+
+}
+.cheer p {
+    color: white;
+    padding-left: 30px;
+    font-family: Inter;
+    font-size: 32px;
+    margin-bottom: 15%;
+}
+
+.ccard1 {
+    margin-top: 60px;
+    background-color: #232323;
+    margin-left:20px;
+    padding: 20px;
+    width: calc(100% - 40px);
+    height: fit-content;
+    border-radius: 20px;
+    display: grid;
+    grid-template: 1fr 5fr / 2fr 1fr;
+    grid-template-areas: 
+    "title box2"
+    "box1 box2";
+    grid-gap: 40px;
+    margin-bottom: 100px;
+}
+.ccard1 h2 {
+    color: white;
+    width: 100%;
+    height: 100%;
+    font-size: 50px;
+    align-self: center;
+    grid-area: title;
+}
+
+.cc1box1 {
+    background-color: #343434;
+    width: 100%;
+    height: 100%;
+    border-radius: 20px;
+    grid-area: box1;
+    padding: 40px;
+}
+.cc1box2 {
+    background-color: #343434;
+     width: 100%;
+     height: 100%;
+     border-radius: 20px;
+     grid-area: box2;
+     padding: 20px;
+     display: flex;
+     flex-direction: column;
+     align-items: left;
+     justify-content: center;
+}
+.ccoach{
+    width: 70%;
+    height: 90%;
+    margin: 10px 10px;
+    border-radius: 20px;
+    margin-bottom: 35px;
+}
+.cc1box2 h2{
+    color: white;
+    font-size: 40px;
+    margin-top: 0px;
+    text-align: right;
+}
+
+.ccard2{
+    margin-top: 60px;
+    background-color: #232323;
+    margin-left:20px;
+    padding: 20px;
+    width: calc(100% - 40px);
+    height: fit-content;
+    border-radius: 20px;
+    display: grid;
+    grid-template: 1fr / 2fr 1fr 1fr 1fr 1fr;
+    grid-template-areas: 
+    "title b1 b2 b3 b4";
+    grid-gap: 40px;
+    margin-bottom: 40px;
+}
+.ccard2 h2{
+    color: white;
+    width: 100%;
+    height: 100%;
+    font-size: 50px;
+    align-self: center;
+    grid-area: title;
+}
+.cc2box{
+    background-color: #343434;
+    width: 100%;
+    height: 100%;
+    border-radius: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+}
+.cc2box h2{
+    color: white;
+    font-size: 32px;
+    font-weight: 300;
+}
+.cc2box1{
+    grid-area: b1;
+}
+.cc2box2{
+    grid-area: b2;
+}
+.cc2box3{
+    grid-area: b3;
+}
+.cc2box4{
+    grid-area: b4;
+}
