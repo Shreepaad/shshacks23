@@ -55,6 +55,7 @@ const workouts = () => {
                     
                 <button className="b2">Add to Workout</button>
                     </div>
+                    <br/>
     </div>
     
     );
