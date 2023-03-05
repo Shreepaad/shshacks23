@@ -22,11 +22,16 @@
 }
 
 .logo {
-    padding-top: 35%;
-    color: white;
+    padding-top: 25%;
     padding-bottom: 30px;
     font-family: Barlow;
     font-weight: 900px;
+    font-size: 64px;
+}
+
+.logo a {
+    color: white;
+    text-decoration: none;
 }
 
 .nav-list {

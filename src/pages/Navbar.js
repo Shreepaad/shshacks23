@@ -9,13 +9,13 @@ import { NavLink } from "react-router-dom";
 const Navbar = () => {
     return (
         <div className="Sidebar">
-            <h1 className="logo">Sportif</h1>
+            <h1 className="logo">
+                <NavLink to="/">Sportif</NavLink>
+            </h1>
             <ul className="nav-list">
                 <li className="nav-item">
                     <NavLink to="/">
-                        <CalendarMonthOutlined
-                            style={{ justifySelf: "flex-start" }}
-                        />
+                        <CalendarMonthOutlined />
                         <p>Calendar</p>
                     </NavLink>
                 </li>
