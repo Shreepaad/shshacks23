@@ -3,10 +3,11 @@ import { BrowserRouter, Route, Routes} from 'react-router-dom';
 
 import './App.css';
 
-import Home from './pages/Home';
-import About from './pages/About';
-import Contact from './pages/Contact';
+import Training from './pages/Training';
+import Calendar from './pages/Calendar';
 import Navbar from './pages/Navbar';
+import Athletics from './pages/Athletics';
+import Home from './pages/Home';
  
 class App extends Component {
   render() {
@@ -16,8 +17,9 @@ class App extends Component {
           <Navbar />
             <Routes>
             <Route path='/' element={<Home/>} />
-            <Route path='/about' element={<About/>} />
-            <Route path='/contact' element={<Contact/>} />
+            <Route path='/calendar' element={<Calendar/>} />
+            <Route path='/training' element={<Training/>} />
+            <Route path='/athletics' element={<Athletics/>} />
            </Routes>
            
         </div> 

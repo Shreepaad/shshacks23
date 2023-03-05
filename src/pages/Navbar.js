@@ -14,7 +14,7 @@ const Navbar = () => {
             </h1>
             <ul className="nav-list">
                 <li className="nav-item">
-                    <NavLink to="/">
+                    <NavLink to="/calendar">
                         <CalendarMonthOutlined
                             style={{ justifySelf: "flex-start" }}
                         />
@@ -22,13 +22,13 @@ const Navbar = () => {
                     </NavLink>
                 </li>
                 <li className="nav-item">
-                    <NavLink to="/about">
+                    <NavLink to="/training">
                         <LocalFireDepartmentOutlined />
                         <p>Training</p>
                     </NavLink>
                 </li>
                 <li className="nav-item">
-                    <NavLink to="/contact">
+                    <NavLink to="/athletics">
                         <SportsBasketballOutlined />
                         <p>Athletics</p>
                     </NavLink>
