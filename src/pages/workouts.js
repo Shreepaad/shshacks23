@@ -3,6 +3,7 @@ import "./workouts.css";
 import { initializeApp } from 'https://www.gstatic.com/firebasejs/9.0.0/firebase-app.js';
 import { getAuth, onAuthStateChanged, GoogleAuthProvider, signInWithPopup, signOut  } from 'https://www.gstatic.com/firebasejs/9.0.0/firebase-auth.js';
 import { getDatabase, ref, set, child ,get, onValue, push, update} from 'https://www.gstatic.com/firebasejs/9.0.0/firebase-database.js';
+import data from "./Workouts.json";
 // TODO: Add SDKs for Firebase products that you want to use
 // https://firebase.google.com/docs/web/setup#available-libraries
 
@@ -23,7 +24,7 @@ const auth = getAuth(firebaseapp);
 const googleauth = new GoogleAuthProvider(auth);
 const db = getDatabase(firebaseapp);
 
-
+/*
 function updateWorkout(choice) {
     const starCountRef = ref(db, 'Workouts/' + choice );
     onValue(starCountRef, (snapshot) => {
@@ -37,17 +38,40 @@ function updateWorkout(choice) {
     });
 }
 
-function getWorkout(choice, callback, w) {
-    const starCountRef = ref(db, "Workouts/" + choice);
-    get(starCountRef, (snapshot) => {
-      const workout = snapshot.val()
-      callback(workout.w);
-    });
+
+ function getWorkout(choice) {
+    return get(ref(db, 'Workouts/' + choice)).then((snapshot) => {
+        if (snapshot.exists()) {
+          return snapshot.val();
+        } else {
+          console.log("No data available");
+        }
+      }).catch((error) => {
+        return "loading";
+      });
   }
 
+  const printAddress = async () => {
+    const a = await getWorkout(2);
+    console.log(a)
+    return a;
+  };
+printAddress();
 
+getWorkout(2).then((message) => {
+    console.log(message)
+}).catch((error) => {
+    console.log(error)
+})*/
+const currentW = data.Workouts[0];
+const d = currentW.name;
+const w1 = currentW.w1;
+const w2 = currentW.w2;
+const w3 = currentW.w3;
 
+console.log(d)
 const workouts = () => {
+    
     return (
 
 
@@ -58,16 +82,13 @@ const workouts = () => {
 
         
     <div className="workouts">
+        
+
         <div className = "p1">
             
-            <p>Day 1: </p>
-            <p>1. Warm up with 5-10 minutes of light cardio (e.g. jumping jacks, high knees, or jump rope) <br/>
-                            2. Barbell Squats: 4 sets x 6 reps <br/>
-                            3. Deadlifts: 4 sets x 6 reps <br/>
-                            4. Bulgarian Split Squats: 3 sets x 8 reps (each leg) <br/>
-                            5. Seated Calf Raises: 3 sets x 10 reps <br/>
-                            6. Box Jumps: 3 sets x 10 reps <br/>
-                </p>
+            
+
+
             </div>
 
         <div className = "p2">
@@ -109,7 +130,7 @@ const workouts = () => {
 
                 <div className="wrapper">
                     
-                <button className="b2" onClick={updateWorkout(1)}>Add to Workout</button>
+                <button className="b2">Add to Workout</button>
                     </div>
                     <br/>
     </div>

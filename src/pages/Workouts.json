@@ -1,0 +1,181 @@
+{
+  "Workouts": [
+    {
+      "name": "Vertical Program",
+      "w1": [
+        "Warm up with 5-10 minutes of light cardio (e.g. jumping jacks, high knees, or jump rope)",
+        "Barbell Squats: 4 sets x 6 reps",
+        "Deadlifts: 4 sets x 6 reps",
+        "Bulgarian Split Squats: 3 sets x 8 reps (each leg)",
+        "Seated Calf Raises: 3 sets x 10 reps",
+        "Box Jumps: 3 sets x 10 reps"
+      ],
+      "w2": [
+        "Warm up with 5-10 minutes of light cardio (e.g. jumping jacks, high knees, or jump rope)",
+        "Romanian Deadlifts: 4 sets x 6 reps",
+        "Dumbbell Lunges: 3 sets x 8 reps (each leg)",
+        "Glute-Ham Raises: 3 sets x 10 reps",
+        "Calf Raises (standing): 3 sets x 10 reps",
+        "Plyometric Box Jumps: 3 sets x 10 reps"
+      ],
+      "w3": [
+        "Warm up with 5-10 minutes of light cardio (e.g. jumping jacks, high knees, or jump rope)",
+        "Squat Jumps: 4 sets x 6 reps",
+        "Single-Leg Deadlifts: 3 sets x 8 reps (each leg)",
+        "Kettlebell Swings: 3 sets x 10 reps",
+        "Seated Calf Raises: 3 sets x 10 reps",
+        "Box Jumps: 3 sets x 10 reps"
+      ]
+    },
+    {
+      "name": "Speed Program",
+      "w1": [
+        "Warm up with 5-10 minutes of light cardio (e.g. jogging, jumping jacks, or high knees)",
+        "Sprint Intervals: 8 sets x 30 seconds on, 30 seconds off",
+        "Barbell Squats: 4 sets x 6 reps",
+        "Romanian Deadlifts: 3 sets x 8 reps",
+        "Box Jumps: 3 sets x 10 reps"
+      ],
+      "w2": [
+        "Warm up with 5-10 minutes of light cardio (e.g. jogging, jumping jacks, or high knees)",
+        "Hill Repeats: 6 sets x 30 seconds uphill, 30 seconds downhill recovery",
+        "Lunges: 3 sets x 10 reps (each leg)",
+        "Single-Leg Deadlifts: 3 sets x 8 reps (each leg)",
+        "Plyometric Lateral Jumps: 3 sets x 10 reps"
+      ],
+      "w3": [
+        "Warm up with 5-10 minutes of light cardio (e.g. jogging, jumping jacks, or high knees)",
+        "Fartlek Run: 30-40 minutes at varying speeds (e.g. 1 minute hard, 1 minute easy)",
+        "Plyometric Box Jumps: 3 sets x 10 reps",
+        "Bulgarian Split Squats: 3 sets x 8 reps (each leg)",
+        "Seated Calf Raises: 3 sets x 10 reps"
+      ]
+    },
+    {
+      "name": "Leg Strength Program",
+      "w1": [
+        "Warm up with 5-10 minutes of light cardio (e.g. jogging, cycling, or rowing machine)",
+        "Barbell Squats: 4 sets x 6 reps",
+        "Deadlifts: 3 sets x 8 reps",
+        "Bulgarian Split Squats: 3 sets x 8 reps (each leg)",
+        "Calf Raises: 3 sets x 12 reps"
+      ],
+      "w2": [
+        "Warm up with 5-10 minutes of light cardio (e.g. jogging, cycling, or rowing machine)",
+        "Lunges: 3 sets x 12 reps (each leg)",
+        "Leg Press: 4 sets x 8 reps",
+        "Hamstring Curls: 3 sets x 10 reps",
+        "Box Jumps: 3 sets x 10 reps"
+      ],
+      "w3": [
+        "Warm up with 5-10 minutes of light cardio (e.g. jogging, cycling, or rowing machine)",
+        "Romanian Deadlifts: 3 sets x 10 reps",
+        "Step-Ups: 3 sets x 12 reps (each leg)",
+        "Glute Bridges: 3 sets x 12 reps",
+        "Seated Calf Raises: 3 sets x 12 reps"
+      ]
+    },
+    {
+      "name": "Push Strength Program",
+      "w1": [
+        "Warm up with 5-10 minutes of light cardio (e.g. jumping jacks, high knees, or jog in place)",
+        "Barbell Bench Press: 4 sets x 6 reps",
+        "Incline Dumbbell Press: 3 sets x 8 reps",
+        "Dumbbell Flyes: 3 sets x 10 reps",
+        "Push-Ups: 2 sets x max reps"
+      ],
+      "w2": [
+        "Warm up with 5-10 minutes of light cardio (e.g. jumping jacks, high knees, or jog in place)",
+        "Overhead Press: 4 sets x 6 reps",
+        "Dumbbell Lateral Raises: 3 sets x 10 reps",
+        "Dumbbell Front Raises: 3 sets x 10 reps",
+        "Dips: 2 sets x max reps"
+      ],
+      "w3": [
+        "Warm up with 5-10 minutes of light cardio (e.g. jumping jacks, high knees, or jog in place)",
+        "Close-Grip Bench Press: 4 sets x 6 reps",
+        "Skull Crushers: 3 sets x 8 reps",
+        "Cable Tricep Extensions: 3 sets x 10 reps",
+        "Diamond Push-Ups: 2 sets x max reps"
+      ]
+    },
+    {
+      "name": "Core Program",
+      "w1": [
+        "Warm up with 5-10 minutes of light cardio (e.g. jumping jacks, high knees, or jog in place)",
+        "Plank: 3 sets x 60 seconds",
+        "Russian Twists: 3 sets x 10 reps (each side)",
+        "Bicycle Crunches: 3 sets x 15 reps",
+        "Side Plank: 2 sets x 30 seconds (each side)",
+        "Leg Raises: 3 sets x 10 reps"
+      ],
+      "w2": [
+        "Warm up with 5-10 minutes of light cardio (e.g. jumping jacks, high knees, or jog in place)",
+        "Reverse Crunches: 3 sets x 15 reps",
+        "Cable Woodchoppers: 3 sets x 10 reps (each side)",
+        "Superman Holds: 3 sets x 30 seconds",
+        "Plank with Knee Tucks: 2 sets x 10 reps (each side)",
+        "Standing Cable Oblique Twists: 3 sets x 10 reps (each side)"
+      ],
+      "w3": [
+        "Warm up with 5-10 minutes of light cardio (e.g. jumping jacks, high knees, or jog in place)",
+        "Hanging Leg Raises: 3 sets x 10 reps",
+        "Swiss Ball Crunches: 3 sets x 15 reps",
+        "V-Ups: 3 sets x 10 reps",
+        "Dead Bug: 2 sets x 10 reps (each side)",
+        "Plank with Alternating Leg Lifts: 2 sets x 10 reps (each side)"
+      ]
+    },
+    {
+      "name": "Core Program",
+      "w1": [
+        "Warm up with 5-10 minutes of light cardio (e.g. jumping jacks, high knees, or jog in place)",
+        "Ladder Drills: 2 sets x 6 drills",
+        "Cone Drills: 2 sets x 6 drills",
+        "Box Jumps: 3 sets x 10 reps",
+        "Single Leg Hops: 3 sets x 10 reps (each leg)",
+        "Side Shuffle and Sprint: 2 sets x 5 reps"
+      ],
+      "w2": [
+        "Warm up with 5-10 minutes of light cardio (e.g. jumping jacks, high knees, or jog in place)",
+        "Agility Hurdles: 2 sets x 6 drills",
+        "Lateral Bounds: 3 sets x 10 reps (each side)",
+        "Squat Jumps: 3 sets x 10 reps",
+        "T-Drill: 2 sets x 5 reps",
+        "Backward Running and Sprint: 2 sets x 5 reps"
+      ],
+      "w3": [
+        "Warm up with 5-10 minutes of light cardio (e.g. jumping jacks, high knees, or jog in place)",
+        "Agility Rings: 2 sets x 6 drills",
+        "Skater Jumps: 3 sets x 10 reps (each side)",
+        "Plyometric Push-ups: 3 sets x 10 reps",
+        "Zig-Zag Cone Drill: 2 sets x 5 reps",
+        "Forward and Backward Shuffle: 2 sets x 5 reps"
+      ]
+    },
+    {
+      "name": "Pull Strength Program",
+      "w1": [
+        "Warm up with 5-10 minutes of light cardio (e.g. jumping jacks, high knees, or jog in place)",
+        "Deadlifts: 4 sets x 6 reps",
+        "Pull-Ups: 3 sets x max reps",
+        "Bent-Over Rows: 3 sets x 8 reps",
+        "Barbell Shrugs: 3 sets x 12 reps"
+      ],
+      "w2": [
+        "Warm up with 5-10 minutes of light cardio (e.g. jumping jacks, high knees, or jog in place)",
+        "Lat Pulldowns: 4 sets x 8 reps",
+        "Cable Rows: 3 sets x 10 reps",
+        "Reverse Flyes: 3 sets x 12 reps",
+        "Bicep Curls: 2 sets x 12 reps"
+      ],
+      "w3": [
+        "Warm up with 5-10 minutes of light cardio (e.g. jumping jacks, high knees, or jog in place)",
+        "Chin-Ups: 3 sets x max reps",
+        "Hammer Curls: 3 sets x 10 reps",
+        "Dumbbell Rows: 3 sets x 10 reps (each arm)",
+        "Farmer's Walks: 3 sets x 60 seconds"
+      ]
+    }
+  ]
+}
