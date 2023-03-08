@@ -19,16 +19,22 @@
     height: 100%;
     background-color: #00000055;
 }
-
 .idk {
     background-image: url(/src/pages/image.jpeg);
     background-size: cover;
     background-repeat: no-repeat;
     height: auto;
-    width: calc(100% - 305px);
+    width: 100%;
     position: relative;
 }
-
+.idk2 {
+    background-image: url(/src/pages/image.jpeg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: auto;
+    width: 100%;
+    position: relative;
+}
 .sportsSelector {
     margin-top: 100px;
     display: grid;
