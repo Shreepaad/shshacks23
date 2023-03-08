@@ -7,8 +7,8 @@ const Training = () => {
             <h1>Training</h1>
             <p>Content</p>
             <NavLink to="/workouts">
-                    <p>test</p>
-                </NavLink>
+                    <p>Current Workout</p>
+            </NavLink>
             
         </div>
     );
