@@ -14,7 +14,7 @@
 .Sidebar {
     background-color: #232323;
     height: 100%;
-    width: 25vw;
+    width: 30vw;
     display: flex;
     flex-direction: column;
     gap: 35px;
@@ -24,6 +24,8 @@
     position: sticky;
     position: -webkit-sticky;
     top: 0;
+    padding-left: 30px;
+    padding-right: 30px;
 }
 
 .logo {
